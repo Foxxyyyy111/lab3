@@ -17,6 +17,7 @@ pipeline {
                 sh "docker build -t mynginx -f Dockerfile.nginx ."
             
         }
+        }
 
         stage('Run-stage') {
             steps {
